@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-caption-init">Всего <span id="header__total">0</span> Р</div>
+            <div class="invisible"><span id="header__transactions">0</span> транзакций</div>
+            <div class="invisible">в среднем <span id="header__average">0</span> Р</div>
+        </header>
+        <main>
+            <form class="input-form">
+                <input id="sum__input" type="number" step="0.01" min="0" placeholder=""></form>
+            <section class="transactions">
+            </section>
+            <section id="no__transactions">
+                <span>Нет записей</span>
+            </section>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

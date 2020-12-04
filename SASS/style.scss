@@ -1,0 +1,23 @@
+$widthAll: 720px;
+@import 'fonts';
+body {
+    margin: 0;
+    background: #E5E5E5;
+}
+
+.invisible {
+    display: none;
+}
+
+.container {
+    width: $widthAll;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 1024px;
+    height: 1px;
+    background: #FFFFFF;
+}
+
+@import "mixins";
+@import "header";
+@import "main";
